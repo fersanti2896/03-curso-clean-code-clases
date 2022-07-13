@@ -61,3 +61,14 @@ Cuando usamos librerías de terceros, APIs, Frameworks, etc. nos encontraremos a
 
 Los comentarios deberían de ser la excepción, no la regla. 
 
+__Nota. Nuestro código debe de ser suficientemente auto explicativo.__
+
+Debemos comentar el ¿por qué? en lugar del ¿qué? o ¿cómo?
+
+#### Uniformidad en el Proyecto
+
+En el proyecto debe tener: 
+
+- Nombres o estructura de métodos. 
+- Estructura en el directorio.
+- Indentación en el código.
