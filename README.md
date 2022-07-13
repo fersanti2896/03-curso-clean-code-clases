@@ -54,3 +54,10 @@ f. Getters y Setters al final.
     get id(): string {
         return this.id;
     }
+
+#### Comentarios en el Código
+
+Cuando usamos librerías de terceros, APIs, Frameworks, etc. nos encontraremos ante situaciones en las que escribir un comentario será mejor que dejar una solución compleja o un hack sin explicación. 
+
+Los comentarios deberían de ser la excepción, no la regla. 
+
