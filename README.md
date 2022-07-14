@@ -22,38 +22,38 @@ Para obtener un resultado
 
 Se recomienda en una `clase`: 
 
-a. Tener propiedades estáticas.
-b. Propiedades públicas al último.
+1. Tener propiedades estáticas.
+2. Propiedades públicas al último.
 
-    public static domReady: boolean = false
+        public static domReady: boolean = false
 
 Para un `método`: 
 
-a. Empezando por los constructores estáticos.
-b. Luego el constructor.
-c. Seguidamente métodos estáticos.
-d. Métodos privados después.
-e. Resto de métodos de instancia ordenados de mayor a menor importancia. 
-f. Getters y Setters al final. 
+1. Empezando por los constructores estáticos.
+2. Luego el constructor.
+3. Seguidamente métodos estáticos.
+4. Métodos privados después.
+5. Resto de métodos de instancia ordenados de mayor a menor importancia. 
+6. Getters y Setters al final. 
 
-    static createInput( id: string ){
-        return new HtmlElement(id, 'input');
-    }
+        static createInput( id: string ){
+            return new HtmlElement(id, 'input');
+        }
 
-    constructor( id: string, type: string ) {
-        this._id = id;
-        this.type = type;
-        this.updatedAt = Date.now();
-    }
+        constructor( id: string, type: string ) {
+            this._id = id;
+            this.type = type;
+            this.updatedAt = Date.now();
+        }
 
-    setType( type: string ) {
-        this.type = type;
-        this.updatedAt = Date.now();
-    }
+        setType( type: string ) {
+            this.type = type;
+            this.updatedAt = Date.now();
+        }
 
-    get id(): string {
-        return this.id;
-    }
+        get id(): string {
+            return this.id;
+        }
 
 #### Comentarios en el Código
 
